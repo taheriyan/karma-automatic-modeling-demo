@@ -1,0 +1,59 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:karma="http://isi.edu/integration/karma/ontologies/model/current#" > 
+  <rdf:Description rdf:about="http://isi.edu/integration/karma/ontologies/model/current#title">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#s12-s-19-artworks.json"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://isi.edu/integration/karma/ontologies/model/current#technique">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#s12-s-19-artworks.json"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://isi.edu/integration/karma/ontologies/model/current#dimensions">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#s12-s-19-artworks.json"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://isi.edu/integration/karma/ontologies/model/current#relatedTo">
+    <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#s12-s-19-artworks.json"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://isi.edu/integration/karma/ontologies/model/current#date_made">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#s12-s-19-artworks.json"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://isi.edu/integration/karma/ontologies/model/current#artist_name">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#s12-s-19-artworks.json"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://isi.edu/integration/karma/ontologies/model/current#access_id">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#s12-s-19-artworks.json"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://isi.edu/integration/karma/ontologies/model/current#description">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#s12-s-19-artworks.json"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://isi.edu/integration/karma/ontologies/model/current#nationality">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#s12-s-19-artworks.json"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://isi.edu/integration/karma/ontologies/model/current#s12-s-19-artworks.json">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://isi.edu/integration/karma/ontologies/model/current#img_url">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#s12-s-19-artworks.json"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+</rdf:RDF>
